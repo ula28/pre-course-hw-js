@@ -18,18 +18,23 @@
 
 // }
 
-// let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
-// switch(true) {
-// 	case rule.length < 25:
-// 		console.log("Все таки нет правил без исключения");
-// 		break;
-// 	case rule.length === 25:
-// 		console.log("50 на 50");
-// 		break;
-//    default:
-// 		console.log("У меня 100 пудов все получится");
+// когда вызываем функцию switch(true), она будет сравнивать "true" с условиями в каждом case и выполнять сооьветствующий блок кода, в зависимости от дли ны строки "rule "
 
-// }
+let rule = "Еще не родился человек ко";
+
+switch(true) {
+	case rule.length > 25:
+		console.log("У меня 100 пудов все получится");
+		break;
+	case rule.length < 25:
+		console.log("Все таки нет правил без исключения");
+		break;
+	case rule.length === 25:
+		console.log("50 на 50");
+		break;
+	
+
+}
 
 // let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
 
@@ -50,23 +55,45 @@
 // }
 // checkStringLength(rule);
 
+// let rule = "Еще не.";
 
-const checkStringLength = (string) => {
-	// проверяем длину строки
-	switch (string.length) {
-	  case string.length < 25:
-		 console.log("Все таки нет правил без исключения");
-		 break;
-	  case 25:
-		 console.log("50 на 50");
-		 break;
-	  default:
-		 console.log("У меня 100 пудов все получится");
-	}
- };
+// const checkStringLength = (string) => {
+// 	// проверяем длину строки
+// 	switch (string.length) {
+// 	  case string.length < 25:
+// 		 console.log("Все таки нет правил без исключения");
+// 		 break;
+// 	  case  string.length === 25:
+// 		 console.log("50 на 50");
+// 		 break;
+// 	  default:
+// 		 console.log("У меня 100 пудов все получится");
+// 	}
+//  };
  
- let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
- checkStringLength(rule);
+ 
+//  checkStringLength(rule);
+
+
+
+// let rule = "Еще не родился ";
+
+// const length = function(string){
+// 	// проверяем длину строки
+// 	switch (string.length) {
+// 	  case string.length < 25:
+// 		 console.log("Все таки нет правил без исключения");
+// 		 break;
+// 	  case  string.length === 25:
+// 		 console.log("50 на 50");
+// 		 break;
+// 	  default:
+// 		 console.log("У меня 100 пудов все получится");
+// 	}
+//  };
+ 
+ 
+//  length(rule);
  
 
 
