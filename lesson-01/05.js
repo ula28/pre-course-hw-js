@@ -32,14 +32,25 @@
 // }
 
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
-switch(true) {
-    case rule.length < 25:
-        console.log("Все таки нет правил без исключения");
-        break;
-    case rule.length === 25:
-        console.log("50 на 50");
-        break;
-    default:
-        console.log("У меня 100 пудов все получится")
+
+// создадим функцию, чтобы динамически менялась длина строки.в функции аргумент закинули, в него,при вызове этой функции, впишутся данные(здесь-rule), которые мы передадим : checkStringLength(rule)
+
+const checkStringLength = (string) => {
+	// проверем обьект на дллину символов
+	switch(string.length) {
+		case  string.length < 25:
+			 console.log("Все таки нет правил без исключения");
+			 break;
+		case  string.length === 25:
+			 console.log("50 на 50");
+			 break;
+		default:
+			 console.log("У меня 100 пудов все получится")
+  }
 }
+
+checkStringLength(rule)
+
+
+
 
