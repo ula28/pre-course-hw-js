@@ -49,7 +49,7 @@ const checkStringLength = (string) => {
   }
 }
 
-checkStringLength(rule)
+checkStringLength(rule);
 
 
 
