@@ -17,4 +17,4 @@ switch (rule.length) {
 		break;
 
 }
-console.log(rule);
+
