@@ -232,7 +232,7 @@
 
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом."
 
-switch (rule.length) {
+switch (true) {
 	case rule.length > 25:
       console.log('У меня 100 пудов все получится'); 
       break;
