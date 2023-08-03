@@ -1,5 +1,10 @@
-let arr = ['сдавайтесь', 'сдавайтесь', 'Не сдавайтесь', 'не сдавайтесь', 'никогда, черт вас подери не сдавайтесь', 'при первой же трудности всегда сдавайтесь'];
+const colors = ['синий', 'черный', 'зеленый', 'красный', 'желтый', 'зеленый'];
 
-let arr2 = arr.slice(2,5);
-let str = arr2.join(',');
-console.log(str);
+function createColorString () {
+	// фильтруем массив, чтобы оставить только требуемые цвета
+		const germanColors = colors.filter(color => color === 'черный' || color === 'красный' || color === 'желтый');
+
+		// обьединяем отфильтрованные цвета в строку с разделителем
+		return germanColors.join('-');
+}
+console.log(createColorString ());
