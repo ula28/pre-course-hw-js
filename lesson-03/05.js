@@ -18,7 +18,6 @@ const users2 = [
 		 address: '789 Oak St'
 	},
 ];
-// К массиву users2 добавь новый объект​
 
 const newObj = {
     id: 11,
@@ -26,6 +25,5 @@ const newObj = {
     surName: 'Susanin',
     address: 'Unknown'
 }
-// Полученный результат выведи в консоль
-let users3 = [...users2, newObj];
-console.log(users3);
+
+console.log([...users2, newObj]);
