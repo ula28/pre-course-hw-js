@@ -32,7 +32,7 @@ const users3 = [
  ];
 
 let userRes = users3.map(item =>{
-	item.isMaried = true;
+	item.isMarried = true;
 	
 });
 console.log(users3);
