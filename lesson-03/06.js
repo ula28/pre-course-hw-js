@@ -36,3 +36,4 @@ let userRes = users3.map(item =>{
 	
 });
 console.log(users3);
+
